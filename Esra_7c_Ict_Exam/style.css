@@ -1,0 +1,277 @@
+.myfirstheading {
+  color: rgb(255, 0, 0);
+}
+#MyFirstNumber {
+  height: 10%;
+  width: 20%;
+}
+#MySecondNumber {
+  height: 10%;
+  width: 20%;
+ 
+}
+
+#myAnswer {
+
+  height: 5%;
+  width: 15%;
+}
+
+
+
+body {
+  background: linear-gradient(-45deg, #40E0D0 , #FFC0CB , #87CEEB,#F0FFFF);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#MyFirstNumber {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 390px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#MyFirstNumber {
+  position: absolute;
+  top: 200px;
+  right: 820px;
+}
+
+#myAnswer {
+  position: absolute;
+  top: 450px;
+  right: 860px;
+}
+
+#Mysecondnumber {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 390px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#Mysecondnumber {
+  position: absolute;
+  top: 200px;
+  right: 400px;
+}
+
+.Mybutton{
+  position: absolute; 
+  top: 460px; 
+  left: 950px;
+  
+}
+.square_button{
+  position: absolute; 
+  top: 340px; 
+  left: 950px;
+  
+}
+
+.SQRT{
+  position: absolute; 
+  top: 340px; 
+  left: 780px;
+  
+}
+.Thebutton{
+  position: absolute; 
+  top: 400px; 
+  left: 810px;
+  
+}
+.Mubutton{
+  position: absolute; 
+  top: 400px; 
+  left: 950px;
+  
+}
+.Dibutton{
+  position: absolute; 
+  top: 460px; 
+  left: 820px;
+  
+}
+.Mybutton {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.Mybutton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.Mybutton:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.Thebutton {
+  background-color: #ffa407; 
+  border: none;
+  color: rgb(255, 204, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.Thebutton {
+  background-color: rgb(255, 221, 0); 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.Thebutton:hover {
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+}
+
+.Dibutton {
+  background-color: #0730ff; 
+  border: none;
+  color: rgb(21, 0, 255);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.Dibutton {
+  background-color: rgb(0, 26, 255); 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.Dibutton:hover {
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+}
+
+
+.Mubutton {
+  background-color: #ee07ff; 
+  border: none;
+  color: rgb(251, 0, 255);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.mubutton {
+  background-color: rgb(255, 0, 234); 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.Mubutton:hover {
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+}
+
+
+.square_button {
+  background-color: #ff9c07; 
+  border: none;
+  color: rgb(255, 174, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.square_button {
+  background-color: rgb(255, 183, 0); 
+  color: black; 
+  border: 2px solid #ffbb33;
+}
+
+.square_button:hover {
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+}
+
+
+.SQRT {
+  background-color: #ff0707; 
+  border: none;
+  color: rgb(255, 0, 13);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.SQRT { 
+  background-color: rgb(255, 0, 0); 
+  color: black; 
+  border: 2px solid #ff3333;
+}
+
+.SQRT:hover {
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+}
+
+
